@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pulse</title>
     <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.min.css">
@@ -95,5 +96,50 @@
             </form>
         </div>
     </section>
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div>
+                    <img src="img/pics/puls_1.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/pics/puls_2.png" alt="">
+                </div>
+                <div>
+                    <img src="img/pics/puls_3.png" alt="">
+                </div>
+            </div>
+            <button class="carousel__prev"><img src="img/pics/left_arrow.png" alt=""></button>
+            <button class="carousel__next"><img src="img/pics/right_arrow.png" alt=""></button>
+        </div>
+    </section>
+    <section class="catalog">
+        <div class="container">
+            <h2 class="title">Каталог пульсометров</h2>
+            <ul class="catalog__tabs">
+                <li class="catalog__tab"><div>Для фитнеса</div></li>
+                <li class="catalog__tab"><div>для бега</div></li>
+                <li class="catalog__tab"><div>для триатлона</div></li>
+            </ul>
+
+            <div class="catalog__item">
+                <img src="img/pics/catalog_puls.jpg" alt="pulsometer" class="catalog__item-pic">
+                <div class="catalog__item-subtitle">Пульсометр Polar FT1</div>
+                <div class="catalog__item-descr">Для первых шагов в тренировках, основанных на сердечном ритме</div>
+                <a href="#" class="catalog__item-more">ПОДРОБНЕЕ</a>
+                <hr>
+                <div class="catalog__item-footer">
+                    <div class="catalog__item-prices">
+                        <div class="catalog__item-old-price">4 750 руб.</div>
+                        <div class="catalog__item-price">4 500 руб.</div>
+                    </div>
+                    <button class="button button_buy">КУПИТЬ</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
