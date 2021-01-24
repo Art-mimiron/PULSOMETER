@@ -1,0 +1,47 @@
+.overlay
+    display: none
+    position: fixed
+    top: 0
+    background-color: rgba(0, 0, 0, 0.57)
+    width: 100%
+    height: 100%
+.modal
+    display: none
+    opacity: 0
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    width: 380px
+    height: 400px
+    background: #F2F2F2
+    padding: 35px 0 40px 0
+    &__title
+        font-weight: bold
+        font-size: 19px
+        line-height: 19px
+        text-align: center
+        color: #0D0D0D
+        margin-bottom: 10px
+    &__subtitle
+        font-weight: bold
+        font-size: 14px
+        line-height: 14px
+        text-align: center
+        color: #0D0D0D
+        margin-bottom: 25px
+    &__close
+        position: absolute
+        right: -30px
+        top: 0
+        font-size: 30px
+        line-height: 12px
+        color: red
+        cursor: pointer
+    &__form
+        margin: 0 auto
+    &__mini
+        height: 120px
+    &__active
+        display: block
+        opacity: 1
